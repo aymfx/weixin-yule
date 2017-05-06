@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/book/book",
+    "pages/booklist/booklist",
+    "pages/index/index",
+    "pages/videoDetail/videoDetail",
+    "pages/video/video",
+    "pages/music/music", 
+    
+    "pages/logs/logs",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "aymfx",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor":"#Ef9b6c",
+    "color": "#fff",
+    "selectedColor":"black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"./icon/home.png",
+      "selectedIconPath":"./icon/home.png"
+    }, {
+      "pagePath": "pages/book/book",
+      "text": "日志",
+      "iconPath":"./icon/book.png",
+      "selectedIconPath":"./icon/book.png"
+    }, {
+      "pagePath": "pages/music/music",
+      "text": "音乐",
+      "iconPath":"./icon/music.png",
+      "selectedIconPath":"./icon/music.png"
+    }, {
+      "pagePath": "pages/video/video",
+      "text": "视频",
+      "iconPath":"./icon/movie.png",
+      "selectedIconPath":"./icon/movie.png"
+    }, {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath":"./icon/book.png",
+      "selectedIconPath":"./icon/book.png"
+    }]
+  }
+}

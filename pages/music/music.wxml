@@ -1,0 +1,25 @@
+<view class="banner">
+  <image src="{{music.poster}}"></image>
+  <audio src="{{music.src}}" id="myAudio" controls hidden="{{true}}" bindended="musicend" bindtimeupdate="lrcshow"></audio>
+  <image src="{{pic}}" class="play" bindtap="audioPlay"></image>
+  <view class="lyc">歌词: {{lrctext}}</view>
+</view>
+<scroll-view scroll-y="true" style="height: {{scrollTop}}px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+  <view wx:for="{{musiclist}}" wx:key="{{index}}" style="height:{{height}}px">
+    <view class="mdetail" data-cid="{{index}}" bindtap="musictap" data-hi="WeChat">
+      <view class="detailLeft">
+        <image src="{{item.poster}}"></image>
+        <view class="minfo">
+          <view class="mname">{{item.name}}</view>
+          <view class="mauthor">{{item.author}}</view>
+        </view>
+      </view>
+      <view class="detailRight">
+        <view class="mtime" style="padding:10px 0;font-family:'微软雅黑'">
+          <view class="time" style="font-size:10px;margin-bottom:5px;">{{item.time}}</view>
+          <view class="like" style="text-align:center;color:red;">☺</view> 
+        </view>
+      </view>
+    </view>
+  </view>
+</scroll-view>

@@ -1,0 +1,17 @@
+<view class="booklist">
+
+<view wx:if="{{flag}}" style="margin:60px auto;text-align:center;">
+<text >哎呀,没找到你要的书籍啊</text>
+</view>
+
+
+
+<view wx:else> 3</view>
+
+
+
+
+
+
+
+</view>

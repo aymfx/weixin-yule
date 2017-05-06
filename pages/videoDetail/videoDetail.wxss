@@ -1,0 +1,31 @@
+video{
+    width:100%;
+}
+
+.intro{
+    height:100%;
+    padding:10px;
+}
+.review{
+    margin-top:20px;padding:5px 0;overflow:hidden
+}
+.review image{
+    vertical-align: middle;
+}
+.danmu{
+    border:1px solid #EF9B6C;height:25px;font-size:12px;min-height:25px;width:500rpx;border-radius:3px 0 0 3px;margin-top:7px;float:left;padding-left:10px;
+}
+.send{
+    width:46px;float:left;height:27px;background:none;border:1px solid #EF9B6C;margin-top:7px;font-size:13px;padding:0;line-height:27px;border-radius:0 3px 3px 0px;
+}
+.movieInfo{
+    font-size:13px;margin-left:10px;
+}
+.movieActor{
+    font-size:13px;margin:5px 0 5px 10px;
+}
+
+button::after{
+    content: '';
+    display:none;
+}

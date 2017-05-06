@@ -1,0 +1,4 @@
+/* pages/booklist/booklist.wxss */
+page{
+    height: 100%;
+}

@@ -1,0 +1,17 @@
+<video id="myVideo" src="{{moviedetail.src}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls poster="{{moviedetail.imgSrc}}"></video>
+<view class="intro">
+    <view style="line-height:60px;height:60px;">
+        <image src="{{moviedetail.imgSrc}}" style="width:60px;height:60px;border-radius:50%;vertical-align:middle;"></image>
+        <text style="font-size:14px;margin-left:10px;">{{moviedetail.name}}</text>
+        <image src="../../icon/heart.png" style="width:20px;height:20px;"></image>
+    </view>
+    <view class="info" style="color:#999;">
+        <view class="movieActor">Actor:{{moviedetail.actor}}</view>
+        <view class="movieInfo">简介：{{moviedetail.detailIntro}}</view>
+        <view class="review">
+            <image src="../../icon/review.png" style="width:40px;height:40px;float:left;"></image>
+            <input type="text" placeholder="快来吐槽?" class="danmu" bindblur="bindInputBlur"/>
+            <button class="send" bindtap="send">吐槽</button>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,6 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <button bindtap="fenxiang">
+  点我
+  </button>
+</view>
