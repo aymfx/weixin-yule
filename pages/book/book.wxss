@@ -1,15 +1,19 @@
+page{
+    height: 100%;
+}
 .book{
     width: 100%;
     background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494045792717&di=e47160019fc6f65ebb84a58de3a2e402&imgtype=0&src=http%3A%2F%2Fa3.mzstatic.com%2Fus%2Fr30%2FPurple20%2Fv4%2F84%2F94%2F4d%2F84944d1f-54c8-3cde-3e77-813115a74d9f%2Fscreen1136x1136.jpeg);
     background-size: cover;
-    overflow: hidden
+    overflow: hidden;
+    height: 100%;
 }
 
 .search{
     position: absolute;
     border: 1px solid #fff;
     width: 80%;
-    margin: 100% 28px;
+    margin: 100% 28px 0;
     padding-left: 10px;
     border-radius: 20px;
     color: white;
@@ -22,9 +26,3 @@
     font-size: 12px;
 }
 
-.bg{
-  height: 100%;
-  width: 100%;
-  position: absolute;
-
-}

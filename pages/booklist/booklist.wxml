@@ -1,17 +1,32 @@
 <view class="booklist">
-
-<view wx:if="{{flag}}" style="margin:60px auto;text-align:center;">
-<text >哎呀,没找到你要的书籍啊</text>
-</view>
-
-
-
-<view wx:else> 3</view>
-
-
-
-
-
-
-
+    <view wx:if="{{flag}}">
+        <!--热门书籍-->
+        <view class="singlebook">
+            <text class="hot">最热门：</text>
+            <view class="single">
+                <image src="{{booklist[0].images.small}}"></image>
+                <view class="singleInfo">
+                    <view class="singlename">书名：{{booklist[0].title}}</view>
+                    <view class="singletag">类别：{{booklist[0].tags[1].title}}</view>
+                    <view class="singleauthor">作者：{{booklist[0].author}}</view>
+                    <view class="singlepub">出版社：{{booklist[0].publisher}}</view>
+                </view>
+            </view>
+        </view>
+        <!--相关书籍-->
+        <text class="about">相关书籍：</text>
+        <scroll-view scroll-y="true" style="height:{{height}}px;" bindscrolltolower="loadmore">
+            <view class="blist" wx:for="{{booklist}}" wx:key="{{index}}">
+                <image src="{{item.images.small}}"></image>
+                <view class="listname">书名：{{item.title}}</view>
+                    <view class="listauthor">作者：{{item.author}}</view>
+                  
+            </view>
+        </scroll-view> 
+    </view>
+    <view wx:else style="text-align:center;">
+        <image src="http://img.zcool.cn/community/011763564de4b36ac7251c94115d84.gif" style="height:200px;width:400rpx;display:block;margin:0 auto;margin-top:200rpx;"></image>
+        <image src="../../icon/sorry.png" style="width:260rpx;height:20px;"></image>
+    </view>
+    <loading hidden="{{showLoading}}">正在加载</loading>
 </view>

@@ -1,3 +1,6 @@
+page{
+    height: 100%;
+}
 .banner{
     position: relative;
 }

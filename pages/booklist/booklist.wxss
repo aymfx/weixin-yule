@@ -1,4 +1,78 @@
 /* pages/booklist/booklist.wxss */
 page{
-    height: 100%;
+    height:100%;
+}
+scroll-view{
+    margin-top:5px;
+}
+.booklist{
+    height:100%;
+}
+.singlebook{
+    padding-top:10px;
+}
+.single{
+    padding:10px 0 10px 10px;
+    overflow: hidden;
+    margin-bottom:10px;
+}
+.single image{
+    width:200rpx;
+    height:260rpx;
+    float:left;
+    box-shadow: 5px 5px 10px #999;
+}
+.singlename{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.singleInfo{
+    float:left;
+    margin-left:10px;
+    width:500rpx;
+}
+.singletag{
+    color:#999;
+    margin-top:10px;
+    font-size: 14px;
+}
+.singleauthor{
+   color:#999; 
+   font-size: 14px;
+   margin:10px 0;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   overflow: hidden;
+}
+.singlepub{
+    color:#999; 
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.blist{
+    width:25%;
+    float:left;
+    margin:10px 13px;
+}
+.blist image{
+    width:200rpx;
+    height:260rpx; 
+}
+.listname{
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.listauthor{
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.about,.hot{
+    border-left:2px solid #EF9B6C;padding:3px 0 3px 10px;
 }

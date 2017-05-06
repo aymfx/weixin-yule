@@ -28,7 +28,7 @@
       "selectedIconPath":"./icon/home.png"
     }, {
       "pagePath": "pages/book/book",
-      "text": "日志",
+      "text": "阅读",
       "iconPath":"./icon/book.png",
       "selectedIconPath":"./icon/book.png"
     }, {

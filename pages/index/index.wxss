@@ -1,4 +1,7 @@
 /**index.wxss**/
+page{
+  height: 100%;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -25,7 +28,8 @@
 
 .container{
     width: 100%;
-    background-image: url(http://v1.qzone.cc/skin/201506/14/21/20/557d7fb9b36ad784.jpg%21600x600.jpg);
-    background-size: cover;
+    background-image: url(http://img4.imgtn.bdimg.com/it/u=2157876659,3470217848&fm=214&gp=0.jpg);
+    background-size: 100% 100%;
     color: white;
+    height:100%;
 }

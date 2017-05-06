@@ -5,7 +5,7 @@ Page({
       success: function (res) {
         var a = res.windowHeight;
         that.setData({
-          scrollTop: a - 200
+          scrollTop: a-200
         })
       }
     })

@@ -1,3 +1,4 @@
+<view class="music" style="height:100%;width:100%">
 <view class="banner">
   <image src="{{music.poster}}"></image>
   <audio src="{{music.src}}" id="myAudio" controls hidden="{{true}}" bindended="musicend" bindtimeupdate="lrcshow"></audio>
@@ -23,3 +24,4 @@
     </view>
   </view>
 </scroll-view>
+</view>

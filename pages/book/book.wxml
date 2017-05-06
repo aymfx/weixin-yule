@@ -1,4 +1,4 @@
-<view class="book" style="height:{{windowHeight}}px">
+<view class="book" >
     
     <input type="text" placeholder="快来找你喜欢的书吧" bindconfirm="confirm" class="search"/>
 </view>
