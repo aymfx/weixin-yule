@@ -1,0 +1,16 @@
+<view class="sinledetail">
+    <image src="{{singlebook.images.large}}"></image>
+    <view class="singleInfo">
+        <view class="title">{{singlebook.title}}</view>
+        <view class="author">作者：{{singlebook.author[0]}}</view>
+        <view class="tags">分类：{{singlebook.tags[5].title?singlebook.tags[5].title:'无'}}</view>
+        <view class="review">评分：{{singlebook.rating.average}}</view>
+        <view class="time">出版时间：{{singlebook.pubdate}}</view>
+    </view>
+</view>
+<view class="authorIntro">
+    <view class="authorInfo">作者简介：<text style="font-size:14px;color:#000;">{{singlebook.author_intro?singlebook.author_intro:singlebook.author[0]}}</text></view>
+</view>
+<view class="bookIntro">
+    <view class="bookInfo">作品简介：<text style="font-size:14px;color:#000;">{{singlebook.summary}}</text></view>
+</view>

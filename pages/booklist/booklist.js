@@ -1,3 +1,4 @@
+// pages/booklist/booklist.js
 var value = '';
 var newlist=[];
 Page({
@@ -10,6 +11,7 @@ Page({
   },
   onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数
+    newlist=[];
     var that = this;
     wx.getSystemInfo({
       success: function (res) {
@@ -31,6 +33,12 @@ Page({
       start:num
     })
     getData(that, value);
+  },
+  gotodetail:function(event){
+    var id=event.currentTarget.dataset.bid;
+    wx.navigateTo({
+      url: '../bookdetail/bookdetail?id='+id
+    });
   }
 })
 function getData(that, value) {

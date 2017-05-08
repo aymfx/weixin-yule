@@ -1,9 +1,52 @@
-<!--pages/mine/mine.wxml-->
-<view class="classname">
-    <image src="{{info.avatarUrl}}"></image>
-    <text>{{info.nickName}}</text>
-    <text>{{info.city}}</text>
-
-
-
+<view class="page">
+  <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+      <image class="weui-media-box__thumb" src="{{info.avatarUrl}}" />
+    </view>
+    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class="weui-media-box__title">{{info.nickName}}</view>
+      <view class="weui-media-box__desc">微信号:aiyumengfixiang</view>
+    </view>
+  </navigator>
+  <view class="weui-cells__title"></view>
+  <view class="weui-cells weui-cells_after-title">
+    <navigator url="../music/music" class="weui-cell" hover-class="navigator-hover" open-type="switchTab">
+      <view class="weui-cell__hd">
+        <image src="/icon/music5.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd">音乐</view>
+      <view class="weui-cell__ft">我的音乐小屋</view>
+    </navigator>
+    <navigator url="../book/book" class="weui-cell" hover-class="navigator-hover" open-type="switchTab">
+      <view class="weui-cell__hd">
+        <image src="/icon/book5.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd">阅读</view>
+      <view class="weui-cell__ft">我的阅读小屋</view>
+    </navigator>
+    <navigator url="../video/video" class="weui-cell" hover-class="navigator-hover" open-type="switchTab">
+      <view class="weui-cell__hd">
+        <image src="/icon/zhibo.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd">视频</view>
+      <view class="weui-cell__ft">我的视频小屋</view>
+    </navigator>
+  </view>
+  <view class="weui-cells__title"></view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell" bindtap="saoyisao">
+      <view class="weui-cell__hd">
+        <image src="/icon/code.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd">扫一扫</view>
+      <view class="weui-cell__ft">扫扫更健康</view>
+    </view>
+    <view class="weui-cell" bindtap="location">
+      <view class="weui-cell__hd">
+        <image src="/icon/map.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd">地图</view>
+      <view class="weui-cell__ft">猜猜我在哪里</view>
+    </view>
+  </view>
 </view>

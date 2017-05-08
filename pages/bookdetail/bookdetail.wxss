@@ -1,0 +1,53 @@
+/* pages/bookdetail/bookdetail.wxss */
+page{
+    height:100%;
+    background:#f9f9f9;
+}
+.sinledetail{
+    padding:10px;
+    overflow: hidden;
+    background:#f4f4f4;
+    box-shadow:5px 5px 5px #bbb;
+}
+.sinledetail image{
+    width:200rpx;
+    height:260rpx;
+    float:left;
+}
+.singleInfo{
+    float:left;
+    margin-left:10px;
+    width:482rpx;
+}
+.authorIntro{
+    margin-top:15px;
+    padding:0 10px;
+    color:#EF9B6C;
+}
+.bookIntro{
+    margin-top:20px;
+    padding:0 10px 10px 10px;
+    color:#EF9B6C;
+}
+.title{
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+}
+.author{
+    margin:10px 0;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+}
+.tags{
+    font-size: 14px;
+}
+.review{
+    font-size: 14px;
+    margin:10px 0;
+}
+.time{
+    font-size: 14px;
+}

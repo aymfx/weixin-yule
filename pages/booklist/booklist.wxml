@@ -16,7 +16,7 @@
         <!--相关书籍-->
         <text class="about">相关书籍：</text>
         <scroll-view scroll-y="true" style="height:{{height}}px;" bindscrolltolower="loadmore">
-            <view class="blist" wx:for="{{booklist}}" wx:key="{{index}}">
+            <view class="blist" wx:for="{{booklist}}" wx:key="{{index}}" bindtap="gotodetail" data-bid="{{item.id}}">
                 <image src="{{item.images.small}}"></image>
                 <view class="listname">书名：{{item.title}}</view>
                     <view class="listauthor">作者：{{item.author}}</view>
@@ -30,3 +30,15 @@
     </view>
     <loading hidden="{{showLoading}}">正在加载</loading>
 </view>
+
+
+
+
+
+
+
+
+
+
+
+

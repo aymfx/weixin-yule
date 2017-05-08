@@ -1,1 +1,19 @@
 /* pages/mine/mine.wxss */
+page{
+    background: #f4f4f4;
+}
+.weui-media-box{
+    margin-top: 14px;
+    background: white;
+    height: 60px;
+    padding: 5px;
+}
+
+.weui-cell__bd{
+    color: #000;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.weui-cell__ft{
+    font-size: 12px;
+}

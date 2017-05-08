@@ -1,14 +1,15 @@
 {
   "pages":[
+    "pages/mine/mine",
     "pages/book/book",
     "pages/booklist/booklist",
+    "pages/bookdetail/bookdetail",
     "pages/index/index",
     "pages/videoDetail/videoDetail",
     "pages/video/video",
     "pages/music/music", 
+    "pages/logs/logs"
     
-    "pages/logs/logs",
-    "pages/mine/mine"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -44,8 +45,8 @@
     }, {
       "pagePath": "pages/mine/mine",
       "text": "我的",
-      "iconPath":"./icon/book.png",
-      "selectedIconPath":"./icon/book.png"
+      "iconPath":"./icon/log.png",
+      "selectedIconPath":"./icon/log.png"
     }]
   }
 }
