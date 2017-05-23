@@ -83,8 +83,8 @@
 
   [1]: http://www.aymfx.cn/liuyang/show/weixin/a.png
   [2]: http://www.aymfx.cn/liuyang/show/weixin/b.png
-  [3]: http://www.aymfx.cn/liuyang/show/weixin/c.png
-  [4]: http://www.aymfx.cn/liuyang/show/weixin/d.png
+  [3]: http://www.aymfx.cn/liuyang/show/weixin/d.png
+  [4]: http://www.aymfx.cn/liuyang/show/weixin/c.png
   [5]: http://www.aymfx.cn/liuyang/show/weixin/e.png
   [6]: http://www.aymfx.cn/liuyang/show/weixin/f.png
   [7]: http://www.aymfx.cn/liuyang/show/weixin/g.png
