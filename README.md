@@ -61,34 +61,7 @@
 
 # 项目截图
 
-![请输入图片描述][1]
 
-
-![请输入图片描述][2]
-
-
-![请输入图片描述][3]
-
-
-![请输入图片描述][4]
-
-
-![请输入图片描述][5]
-
-
-![请输入图片描述][6]
-
-
-![请输入图片描述][7]
-
-
-  [1]: http://www.aymfx.cn/liuyang/show/weixin/a.png
-  [2]: http://www.aymfx.cn/liuyang/show/weixin/b.png
-  [3]: http://www.aymfx.cn/liuyang/show/weixin/c.png
-  [4]: http://www.aymfx.cn/liuyang/show/weixin/d.png
-  [5]: http://www.aymfx.cn/liuyang/show/weixin/e.png
-  [6]: http://www.aymfx.cn/liuyang/show/weixin/f.png
-  [7]: http://www.aymfx.cn/liuyang/show/weixin/g.png
 
 
 
